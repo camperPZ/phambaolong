@@ -1,6 +1,7 @@
-<html>
-<h1>Tạo tài khoản mới </h1>
-<p> miễn phí và sẽ luôn như vậy.</p>
+
+# Tạo tài khoản mới
+**_miễn phí và sẽ ~luôn như vậy~._**
+
 <form>
 <input type="text" name="họ" placeholder="họ" style="width: 150px; height: 25px;" title="sdf" > 
 <input type="text" name="tên" placeholder="tên" style="width: 150px; height: 25px;"><br><br>
@@ -142,7 +143,4 @@ if you older than 75, you can't submit! because I'm too lazy hahaha :P<br>
 </form>
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 <a href="https://www.w3schools.com/html/default.asp" target="_blank">don't kick this </a>
-
-
-</html>
 
