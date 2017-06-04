@@ -1,6 +1,6 @@
 
 # Tạo tài khoản mới
-**_miễn phí và sẽ ~luôn như vậy~._**
+**_miễn phí và sẽ ~~luôn như vậy~~._**
 
 <form>
 <input type="text" name="họ" placeholder="họ" style="width: 150px; height: 25px;" title="sdf" > 
