@@ -1,13 +1,7 @@
 
 # Tạo tài khoản mới
 **_miễn phí và sẽ ~~luôn như vậy~~._**
-Reference-style: 
-![alt text][logo]
-![alt text][logo]
-![alt text][logo]
-[logo]
 
-[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
 <form>
 <input type="text" name="họ" placeholder="họ" style="width: 150px; height: 25px;" title="sdf" > 
 <input type="text" name="tên" placeholder="tên" style="width: 150px; height: 25px;"><br><br>
