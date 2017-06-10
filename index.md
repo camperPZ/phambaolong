@@ -2,14 +2,66 @@
 # Tạo tài khoản mới
 **_miễn phí và sẽ ~~luôn như vậy~~._**
 
-<form>
-<input type="text" name="họ" placeholder="họ" style="width: 150px; height: 25px;" title="sdf" > 
-<input type="text" name="tên" placeholder="tên" style="width: 150px; height: 25px;"><br><br>
-<input type="text" placeholder="số di dộng hoặc email" style="width: 300px; height: 25px;"><br><br>
-<input type="password" name="mật khẩu" placeholder="mật khẩu mới" style="width: 300px; height: 25px;">
+<head>
+
+<title>btvn</title>
+<script>
+function checkinformation(){
+var a = document.forms["create"]["fname"].value;
+if (a == "") {
+        alert("làm ơn điền tên!");
+        return false;
+		}
+var b = document.forms["create"]["lname"].value;
+if (b == "") {
+        alert("làm ơn điền họ! ");
+        return false;
+		}
+var c = document.forms["create"]["sdtoremail"].value;
+ if (c == "") {
+        alert("làm ơn điền số điện thoại hoặc Email!");
+        return false;
+		}
+var d = document.forms["create"]["bday"].value;
+if (d ==""){
+		alert("làm ơn chọn ngày sinh!");
+		return false;
+	}
+var e = document.forms["create"]["bmonth"].value;
+if (e ==""){
+		alert("làm ơn chọn tháng sinh!");
+		return false;
+	}
+var f = document.forms["create"]["byear"].value;
+if (f ==""){
+		alert("làm ơn chọn năm sinh!");
+		return false;
+	}
+var g = document.forms["create"]["gender"].value;
+if (g ==""){
+		alert("làm ơn chọn giới tính!")
+		return false;
+	}
+var h = document.forms["create"]["password"].value;
+if (h == "")
+		alert("là ơn điền mật khẩu!");
+		return false;
+}
+</script>
+<head>
+
+<body>
+<h1>Tạo tài khoản mới </h1>
+<p> miễn phí và sẽ luôn như vậy.</p>
+<p>họ              tên</p>
+<form name="create" onsubmit="return checkinformation()">
+<input type="text" name="fname" placeholder="họ"  style="width: 150px; height: 25px; " > 
+<input type="text" name="lname" placeholder="tên" style="width: 150px; height: 25px;" ><br><br>
+<input type="text" name="sdtoremail" placeholder="số di dộng hoặc email"  style="width: 300px; height: 25px;"><br><br>
+<input type="password" name="password" placeholder="mật khẩu mới"  style="width: 300px; height: 25px;">
 <p>ngày sinh </p>
-<select name="ngày sinh">
-	<option value="0" selected>ngày</option>
+<select name="bday" >
+	<option value="" selected>ngày</option>
 	<option value="1">1</option>
 	<option value="2">2</option>
 	<option value="3">3</option>
@@ -42,8 +94,8 @@
 	<option value="30">30</option>
 	<option value="31">31</option>
 </select>	
-<select name="tháng sinh">
-	<option value="0" selected> tháng </option>
+<select name="bmonth">
+	<option value="" selected> tháng </option>
 	<option value="1">1</option>
 	<option value="2">2</option>
 	<option value="3">3</option>
@@ -57,8 +109,8 @@
 	<option value="11">11</option>
 	<option value="12">12</option>
 </select>
-<select name="năm sinh">
-	<option value="0" selected> năm </option>
+<select name="byear">
+	<option value="" selected> năm </option>
 	<option value="2017">2017</option>
 	<option value="2016">2016</option>
 	<option value="2015">2015</option>
@@ -134,13 +186,14 @@
 	<option value="1944">1944</option>
 	<option value="1943">1943</option>
 	<option value="1942">1942</option>
-</select><br>
-<input type="radio" name="giới tính" value="nam">nam<br>
-<input type="radio" name="giới tính" value="nữ">nữ<br>
-if you older than 75, you can't submit! because I'm too lazy hahaha :P<br>
-<input type="submit" value="tạo tài khoản">
-
+</select><br><br>
+giới tính<br>
+<input type="radio" name="gender" value="nam" >nam<br>
+<input type="radio" name="gender" value="nữ">nữ<br>
+#if you older than 75, you can't submit! because I'm too lazy hahaha :P#<br>
+<input id="button!" type="submit" name="submited" value="tạo tài khoản" >
 </form>
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-<a href="https://www.w3schools.com/html/default.asp" target="_blank">don't kick this </a>
 
+
+
+</body>
