@@ -56,7 +56,7 @@ if (h == "")
 <input type="text" name="lname" placeholder="tên" style="width: 150px; height: 25px;" ><br><br>
 <input type="text" name="sdtoremail" placeholder="số di dộng hoặc email"  style="width: 300px; height: 25px;"><br><br>
 <input type="password" name="password" placeholder="mật khẩu mới"  style="width: 300px; height: 25px;">
-ngày sinh
+###ngày sinh
 <select name="bday" >
 	<option value="" selected>ngày</option>
 	<option value="1">1</option>
@@ -184,10 +184,10 @@ ngày sinh
 	<option value="1943">1943</option>
 	<option value="1942">1942</option>
 </select><br><br>
-###giới tính <br>
+###giới tính 
 <input type="radio" name="gender" value="nam" >nam<br>
 <input type="radio" name="gender" value="nữ">nữ<br>
-####if you older than 75, you can't submit! because I'm too lazy hahaha :P<br>
+####if you older than 75, you can't submit! because I'm too lazy hahaha :P
 <input id="button!" type="submit" name="submited" value="tạo tài khoản" >
 </form>
 
