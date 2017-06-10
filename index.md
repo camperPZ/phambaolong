@@ -50,7 +50,7 @@ if (h == "")
 <head>
 
 <body>
-**họ và tên:**
+###họ và tên:
 <form name="create" onsubmit="return checkinformation()">
 <input type="text" name="fname" placeholder="họ"  style="width: 150px; height: 25px; " > 
 <input type="text" name="lname" placeholder="tên" style="width: 150px; height: 25px;" ><br><br>
@@ -184,10 +184,10 @@ ngày sinh
 	<option value="1943">1943</option>
 	<option value="1942">1942</option>
 </select><br><br>
-**giới tính**
+###giới tính <br>
 <input type="radio" name="gender" value="nam" >nam<br>
 <input type="radio" name="gender" value="nữ">nữ<br>
-#if you older than 75, you can't submit! because I'm too lazy hahaha :P#<br>
+####if you older than 75, you can't submit! because I'm too lazy hahaha :P<br>
 <input id="button!" type="submit" name="submited" value="tạo tài khoản" >
 </form>
 
