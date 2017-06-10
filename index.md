@@ -1,5 +1,4 @@
-<!DOCTYPE html>
-# Tạo tài khoản mới
+# Tạo tài khoản mới#
 **_miễn phí và sẽ ~~luôn như vậy~~._**
 
 <head>
