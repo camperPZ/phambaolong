@@ -1,5 +1,5 @@
-# Tạo tài khoản mới#
-**_miễn phí và sẽ ~~luôn như vậy~~._**
+# Tạo tài khoản mới
+**_miễn phí và sẽ luôn như vậy._**
 
 <head>
 
