@@ -55,7 +55,7 @@ họ và tên: <br>
 <input type="text" name="fname" placeholder="họ"  style="width: 150px; height: 25px; " > 
 <input type="text" name="lname" placeholder="tên" style="width: 150px; height: 25px;" ><br><br>
 <input type="text" name="sdtoremail" placeholder="số di dộng hoặc email"  style="width: 300px; height: 25px;"><br><br>
-<input type="password" name="password" placeholder="mật khẩu mới"  style="width: 300px; height: 25px;">
+<input type="password" name="password" placeholder="mật khẩu mới"  style="width: 300px; height: 25px;"><br>
 ngày sinh <br>
 <select name="bday" >
 	<option value="" selected>ngày</option>
