@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 # Tạo tài khoản mới
 **_miễn phí và sẽ ~~luôn như vậy~~._**
 
